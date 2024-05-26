@@ -338,3 +338,21 @@ body {
     rotate: 0deg;
   }
 }
+.text {
+  position: absolute;
+  color: azure;
+  top: 10px;
+  text-align: center;
+  font-family: "Poetsen One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 36px;
+  line-height: 1.5;
+  opacity: 0;
+  animation: text 4s ease forwards 4s;
+}
+@keyframes text {
+  100% {
+    opacity: 1;
+  }
+}
